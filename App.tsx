@@ -1,10 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import { Container, Text } from './src/components/Button';
+import Home from './src/screens/Home/Home';
 
 export default function App() {
-	return (
-		<Container>
-			<Text>Olimpo</Text>
-		</Container>
-	);
+	return <Home />;
 }

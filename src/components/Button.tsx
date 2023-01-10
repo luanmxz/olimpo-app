@@ -4,8 +4,10 @@ export const Container = styled.View`
 	flex: 1;
 	align-items: center;
 	justify-content: center;
+	background-color: whitesmoke;
 `;
 
 export const Text = styled.Text`
 	font-size: 48px;
+	color: black;
 `;
